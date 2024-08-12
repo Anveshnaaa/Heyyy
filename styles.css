@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://wallpapers.com/images/high/dawn-sky-aesthetic-moon-2psy8v5r8pdej2tv.webp') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4b0082;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background: url('https://wallpapers.com/images/high/dawn-sky-aesthetic-moon-2psy8v5r8pdej2tv.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Dancing Script', cursive; /* Aesthetic and cursive-like font */
+}
+
+#intro p {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #000;
+    font-family: 'Quicksand', sans-serif; /* Cute, non-italic font */
+}
+
+#reasons h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #000;
+    font-family: 'Dancing Script', cursive; /* Same as main heading */
+}
+
+#reasons ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 20px; /* Gap between list and button */
+    color: #fff;
+}
+
+#reasons li {
+    margin-bottom: 10px;
+}
+
+.love-box {
+    margin-top: 20px;
+}
+
+#loveButton, #photoButton {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive; /* Aesthetic and cursive-like */
+}
+
+#loveButton:hover, #photoButton:hover {
+    background-color: #f0f0f0;
+}
+
+.photo-box {
+    text-align: center;
+}
+
+.photo-box img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.photo-box p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.photo-box .bye {
+    font-size: 1.5em;
+    color: #000;
+    margin-top: 20px;
+}
